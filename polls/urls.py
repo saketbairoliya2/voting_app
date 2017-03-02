@@ -13,3 +13,6 @@ urlpatterns = [
 	# Ex: /polls/5/vote/
 	url(r'^(?P<question_id>[0-9]+)/vote/$', views.vote, name='vote'),
 ]
+
+
+curl -H"X-FullContact-APIKey:$b0ef24191fa5731d" 'https://api.fullcontact.com/v2/person.json?email=bart@fullcontact.com'
